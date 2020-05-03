@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+}
+
+#top{
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  color: white;
+  justify-content: flex-end;
+  font-family:"Lucida Console", Monaco, monospace;
+  
+}
+
+#top nav ul{
+  list-style: none;
+  display: flex;
+}
+#top nav ul li {
+  margin: 0 5px;
+}
+a { color:white;
+  text-decoration:none;
+  }
+  
+  a:hover {
+  color: limegreen;
+  text-decoration : none;
+  }
+
+  #banner{
+    display: flex;
+    justify-content: space-around;
+  }
+  .bannerimg1{
+    height: 200px;
+    width: 300px;
+  }
+
+
+  h1{
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-shadow:3px 3px  orange;
+  }
+
+  h2 {
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    
+  }
+
+  p{
+    padding-left: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+  }
+
+#book1 img{
+  width: 300 px;
+  height: 200px;
+}
+
+  #footer{
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    color: white;
+    
+    font-family:"Lucida Console", Monaco, monospace;
+    
+  }
+  
+  #footer nav ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+  }
+   
+  #footer nav ul li {
+    font-size: 15px;
+    margin: 0 5px;
+    padding-top:15px;
+  }
+   
+  #footer h4 {
+    font-size: 15px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  h4{
+    font-size: small;
+    padding: 15px;
+  }
+  h5{
+    padding-left: 20px;
+  }

@@ -1,0 +1,199 @@
+body{
+  margin: 0;
+}
+
+#top{
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  color: white;
+  justify-content: flex-end;
+  font-family:"Lucida Console", Monaco, monospace;
+  
+}
+
+#top nav ul{
+  list-style: none;
+  display: flex;
+}
+#top nav ul li {
+  margin: 0 5px;
+}
+a { color:white;
+  text-decoration:none;
+  }
+  
+  a:hover {
+  color: limegreen;
+  text-decoration : none;
+  }
+#banner{
+  display: flex;
+  justify-content: space-around;
+}
+.bannerimg1{
+  height: 200px;
+  width: 300px;
+}
+
+
+h1{
+  font-size: 100px;
+  background-color: black;
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  text-shadow:3px 3px  limegreen;
+}
+p{
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+ 
+}
+
+label{
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+  
+}
+
+h3{
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Lucida Console", Monaco, monospace;
+  
+}
+#activities{
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+#submit{
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+#submit2{
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin-left: 10px;
+}
+#radio{
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+legend{
+  font-size: 15px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+#books {
+  background-image: url('../images/Books.jpeg');
+  background-position: center;
+  background-size:cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style:oblique;
+  text-shadow:3px 3px  blacks;
+  color:orange;
+ 
+}
+
+#books a{
+  font-size: 75px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style:oblique;
+  text-shadow:3px 3px  gray;
+  color:orange;
+  margin-top: 10px;
+}
+#books a:hover {
+  color: limegreen;
+  text-decoration : none;
+  }
+#puzzles {
+  background-image: url('../images/Puzzles.jpeg');
+  background-position: center;
+  background-size:cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style:oblique;
+  text-shadow:3px 3px  gray;
+  color:blue;
+  margin-top: 10px;
+}
+
+#puzzles a{
+  font-size: 75px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style:oblique;
+  text-shadow:3px 3px  gray;
+  color:blue;
+  margin-top: 10px;
+}
+#puzzles a:hover {
+  color: limegreen;
+  text-decoration : none;
+  }
+#footer{
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+  color: white;
+  
+  font-family:"Lucida Console", Monaco, monospace;
+  
+}
+
+#footer nav ul{
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+}
+#footer nav ul li {
+  font-size: 15px;
+  margin: 0 5px;
+  padding-top:15px;
+}
+ 
+#footer h4 {
+  font-size: 15px;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+
+
+
+h4{
+  padding: 15px;
+}
+p{
+  padding: 10px;
+}
+
+h2{
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Lucida Console", Monaco, monospace;;
+}
